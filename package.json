@@ -1,0 +1,24 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "makefile": "mkdir ./dist && mkfile -n 0b ./dist/index.html",
+    "deploy": "rm -rf ./dist && npm run makefile && md2html ./resume.md > ./dist/index.html && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Panaru0430/resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Panaru0430/resume/issues"
+  },
+  "homepage": "https://github.com/Panaru0430/resume#readme",
+  "devDependencies": {
+    "gh-pages": "^1.0.0",
+    "markdown": "^0.5.0"
+  }
+}
