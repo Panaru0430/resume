@@ -42,21 +42,15 @@ h1, h2, h3, h4, h5, h6 {
 blockquote, dl, ol, p, table, ul {
   margin-bottom: .2em;
 }
+
 ol, ul {
   padding-left: 6em;
   list-style-type: square;
 }
-ol, ul {
-  list-style-type: afar;
-}
 
-ol ol, ul ol, ul ul, ul ol,{
+ol ol, ul ol, ul ul, ul ol{
+  padding-left: 2em;
   list-style-type: circle;
-}
-
-ol.cicle-style, ul.cicle-style {
-  list-style-type: circle;
-  padding-left: 1em;
 }
 
 ol .tab-time,
