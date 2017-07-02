@@ -1,10 +1,10 @@
 html,body {
   font-family: Helvetica, 'Hiragino Sans GB', STXihei, 'Microsoft Yahei', '微软雅黑', Arial, sans-serif !important;
-  display: none;
 }
 
-.book.font-family-1 {
-  font-family: Helvetica, 'Hiragino Sans GB', STXihei, 'Microsoft Yahei', '微软雅黑', Arial, sans-serif !important;
+body {
+  max-width: 768px;
+  margin: 0 auto;
 }
 
 a.link { display:inline-block;  }
@@ -18,8 +18,7 @@ a.link::before{
   background-size:auto 100%;
   background-position: center 0;
 }
-hr + p {
-  display: none;
+hr {
 }
 p.text-right {
   text-align: right;
@@ -31,52 +30,52 @@ p.text-right + p {
 p.text-right + p + p {
   display: none;
 }
-.markdown-section hr {
+hr {
   margin: 1em 0;
 }
 
-.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6 {
+h1, h2, h3, h4, h5, h6 {
   margin-top: 1em;
   margin-bottom: .2em;
 }
 
-.markdown-section blockquote, .markdown-section dl, .markdown-section ol, .markdown-section p, .markdown-section table, .markdown-section ul {
+blockquote, dl, ol, p, table, ul {
   margin-bottom: .2em;
 }
-.markdown-section ol, .markdown-section ul {
+ol, ul {
   padding-left: 6em;
   list-style-type: square;
 }
-.markdown-section ol.no-style, .markdown-section ul.no-style {
+ol, ul {
   list-style-type: none;
 }
-.markdown-section ol.cicle-style, .markdown-section ul.cicle-style {
+ol.cicle-style, ul.cicle-style {
   list-style-type: circle;
   padding-left: 1em;
 }
 
-.markdown-section ol.no-style .tab-time,
-.markdown-section ul.no-style .tab-time {
+ol .tab-time,
+ul .tab-time {
   width: 180px;
   display: inline-block;
 }
-.markdown-section ul.no-style .tab-slim {
+ul .tab-slim {
   width: 140px;
   display: inline-block;
 }
-.markdown-section ul.no-style .tab-slimmer {
+ul .tab-slimmer {
   width: 100px;
   display: inline-block;
 }
-.markdown-section ul.no-style .tab-fat {
+ul .tab-fat {
   width: 300px;
   display: inline-block;
 }
-.markdown-section ul.no-style .tab-fatter {
+ul .tab-fatter {
   width: 300px;
   display: inline-block;
 }
-.markdown-section ul li.li-bg {
+ul li.li-bg {
   background-color: #eee;
   margin-bottom: 10px;
 }
