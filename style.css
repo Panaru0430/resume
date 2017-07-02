@@ -24,12 +24,7 @@ p.text-right {
   text-align: right;
   margin-bottom: 0 !important;
 }
-p.text-right + p {
-  display: none;
-}
-p.text-right + p + p {
-  display: none;
-}
+
 hr {
   margin: 1em 0;
 }
@@ -50,6 +45,7 @@ ol, ul {
 
 ol ol, ul ol, ul ul, ul ol{
   padding-left: 2em;
+  margin-top: .5em;
   list-style-type: circle;
 }
 
@@ -59,7 +55,7 @@ ul .tab-time {
   display: inline-block;
 }
 ul .tab-slim {
-  width: 140px;
+  width: 194px;
   display: inline-block;
 }
 ul .tab-slimmer {
@@ -72,6 +68,10 @@ ul .tab-fat {
 }
 ul .tab-fatter {
   width: 300px;
+  display: inline-block;
+}
+ul .tab-fatterer {
+  width: 360px;
   display: inline-block;
 }
 ul li.li-bg {
