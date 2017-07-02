@@ -1,0 +1,82 @@
+html,body {
+  font-family: Helvetica, 'Hiragino Sans GB', STXihei, 'Microsoft Yahei', '微软雅黑', Arial, sans-serif !important;
+  display: none;
+}
+
+.book.font-family-1 {
+  font-family: Helvetica, 'Hiragino Sans GB', STXihei, 'Microsoft Yahei', '微软雅黑', Arial, sans-serif !important;
+}
+
+a.link { display:inline-block;  }
+a.link::before{
+  content:"";
+  display:inline-block;
+  width:16px;
+  height:10px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAD9SURBVBjTbdE/KMQBGMbxj5+LLjdcpCNciUWJlEixWqR0QhamK8pksBlkMChEujoxqTMxsJDJeN1kIH82MihlMGO5O9x5p/fp29v7vM9LecUduXVjS5SgDLfb8S5hRty6hooSXGvPo1UfiNn0+RdXiOpTXdT9nkO/cLd5ja49ewGBAa8/HoakvElrkdaGSknjlgp4WNacABErRoUsuNBbwGNyZtWrzeuwRcc65DdNy5nAlFOdAs22HYoXppOyRkDEsiuHLu2q//H+YLLYB7ok9P86VEjYU1FFVDnx9TeclDOtoM6+A+HS7KM2nBvUIyOj6Z/nqbHmzr0DsXL4DdfCMj45Cs+0AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE1LTEwLTA4VDIzOjMwOjM4KzA4OjAwmhajDwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNS0xMC0wOFQyMzozMDozOCswODowMOtLG7MAAABOdEVYdHNvZnR3YXJlAEltYWdlTWFnaWNrIDYuOC44LTEwIFExNiB4ODZfNjQgMjAxNS0wNy0xOSBodHRwOi8vd3d3LmltYWdlbWFnaWNrLm9yZwUMnDUAAAAYdEVYdFRodW1iOjpEb2N1bWVudDo6UGFnZXMAMaf/uy8AAAAYdEVYdFRodW1iOjpJbWFnZTo6SGVpZ2h0ADQ0NW1cWFAAAAAXdEVYdFRodW1iOjpJbWFnZTo6V2lkdGgANDQ2Z6RZtwAAABl0RVh0VGh1bWI6Ok1pbWV0eXBlAGltYWdlL3BuZz+yVk4AAAAXdEVYdFRodW1iOjpNVGltZQAxNDQ0MzE4MjM4BM4BYgAAABN0RVh0VGh1bWI6OlNpemUAMTEuNktCQnxaRsAAAABadEVYdFRodW1iOjpVUkkAZmlsZTovLy9ob21lL3d3d3Jvb3Qvd3d3LmVhc3lpY29uLm5ldC9jZG4taW1nLmVhc3lpY29uLmNuL3NyYy8xMTk0NC8xMTk0NDkzLnBuZ1JlPWsAAAAASUVORK5CYII=);
+  background-repeat:no-repeat;
+  background-size:auto 100%;
+  background-position: center 0;
+}
+hr + p {
+  display: none;
+}
+p.text-right {
+  text-align: right;
+  margin-bottom: 0 !important;
+}
+p.text-right + p {
+  display: none;
+}
+p.text-right + p + p {
+  display: none;
+}
+.markdown-section hr {
+  margin: 1em 0;
+}
+
+.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6 {
+  margin-top: 1em;
+  margin-bottom: .2em;
+}
+
+.markdown-section blockquote, .markdown-section dl, .markdown-section ol, .markdown-section p, .markdown-section table, .markdown-section ul {
+  margin-bottom: .2em;
+}
+.markdown-section ol, .markdown-section ul {
+  padding-left: 6em;
+  list-style-type: square;
+}
+.markdown-section ol.no-style, .markdown-section ul.no-style {
+  list-style-type: none;
+}
+.markdown-section ol.cicle-style, .markdown-section ul.cicle-style {
+  list-style-type: circle;
+  padding-left: 1em;
+}
+
+.markdown-section ol.no-style .tab-time,
+.markdown-section ul.no-style .tab-time {
+  width: 180px;
+  display: inline-block;
+}
+.markdown-section ul.no-style .tab-slim {
+  width: 140px;
+  display: inline-block;
+}
+.markdown-section ul.no-style .tab-slimmer {
+  width: 100px;
+  display: inline-block;
+}
+.markdown-section ul.no-style .tab-fat {
+  width: 300px;
+  display: inline-block;
+}
+.markdown-section ul.no-style .tab-fatter {
+  width: 300px;
+  display: inline-block;
+}
+.markdown-section ul li.li-bg {
+  background-color: #eee;
+  margin-bottom: 10px;
+}
