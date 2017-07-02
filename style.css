@@ -4,7 +4,7 @@ html,body {
 
 body {
   max-width: 768px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
 }
 
 a.link { display:inline-block;  }
