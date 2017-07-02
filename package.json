@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clean": "rm -rf ./dist",
+    "copyStyle": "cp style.css ./dist/style.css",
+    "md": "marked -i resume.md -o ./dist/index.html",
     "makefile": "mkdir ./dist && mkfile -n 0b ./dist/index.html",
-    "deploy": "rm -rf ./dist && npm run makefile && md2html ./resume.md > ./dist/index.html && gh-pages -d dist"
+    "deploy": "npm run clean && npm run makefile && npm run copyStyle && npm run md && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -19,6 +22,7 @@
   "homepage": "https://github.com/Panaru0430/resume#readme",
   "devDependencies": {
     "gh-pages": "^1.0.0",
-    "markdown": "^0.5.0"
+    "markdown": "^0.5.0",
+    "marked": "^0.3.6"
   }
 }

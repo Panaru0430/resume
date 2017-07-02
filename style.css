@@ -1,0 +1,80 @@
+html,body {
+  font-family: Helvetica, 'Hiragino Sans GB', STXihei, 'Microsoft Yahei', '微软雅黑', Arial, sans-serif !important;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto 50px;
+}
+
+a.link { display:inline-block;  }
+a.link::before{
+  content:"";
+  display:inline-block;
+  width:16px;
+  height:10px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAD9SURBVBjTbdE/KMQBGMbxj5+LLjdcpCNciUWJlEixWqR0QhamK8pksBlkMChEujoxqTMxsJDJeN1kIH82MihlMGO5O9x5p/fp29v7vM9LecUduXVjS5SgDLfb8S5hRty6hooSXGvPo1UfiNn0+RdXiOpTXdT9nkO/cLd5ja49ewGBAa8/HoakvElrkdaGSknjlgp4WNacABErRoUsuNBbwGNyZtWrzeuwRcc65DdNy5nAlFOdAs22HYoXppOyRkDEsiuHLu2q//H+YLLYB7ok9P86VEjYU1FFVDnx9TeclDOtoM6+A+HS7KM2nBvUIyOj6Z/nqbHmzr0DsXL4DdfCMj45Cs+0AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE1LTEwLTA4VDIzOjMwOjM4KzA4OjAwmhajDwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNS0xMC0wOFQyMzozMDozOCswODowMOtLG7MAAABOdEVYdHNvZnR3YXJlAEltYWdlTWFnaWNrIDYuOC44LTEwIFExNiB4ODZfNjQgMjAxNS0wNy0xOSBodHRwOi8vd3d3LmltYWdlbWFnaWNrLm9yZwUMnDUAAAAYdEVYdFRodW1iOjpEb2N1bWVudDo6UGFnZXMAMaf/uy8AAAAYdEVYdFRodW1iOjpJbWFnZTo6SGVpZ2h0ADQ0NW1cWFAAAAAXdEVYdFRodW1iOjpJbWFnZTo6V2lkdGgANDQ2Z6RZtwAAABl0RVh0VGh1bWI6Ok1pbWV0eXBlAGltYWdlL3BuZz+yVk4AAAAXdEVYdFRodW1iOjpNVGltZQAxNDQ0MzE4MjM4BM4BYgAAABN0RVh0VGh1bWI6OlNpemUAMTEuNktCQnxaRsAAAABadEVYdFRodW1iOjpVUkkAZmlsZTovLy9ob21lL3d3d3Jvb3Qvd3d3LmVhc3lpY29uLm5ldC9jZG4taW1nLmVhc3lpY29uLmNuL3NyYy8xMTk0NC8xMTk0NDkzLnBuZ1JlPWsAAAAASUVORK5CYII=);
+  background-repeat:no-repeat;
+  background-size:auto 100%;
+  background-position: center 0;
+}
+hr {
+}
+p.text-right {
+  text-align: right;
+  margin-bottom: 0 !important;
+}
+
+hr {
+  margin: 1em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1em;
+  margin-bottom: .2em;
+}
+
+blockquote, dl, ol, p, table, ul {
+  margin-bottom: .2em;
+}
+
+ol, ul {
+  padding-left: 6em;
+  list-style-type: square;
+}
+
+ol ol, ul ol, ul ul, ul ol{
+  padding-left: 2em;
+  margin-top: .5em;
+  list-style-type: circle;
+}
+
+ol .tab-time,
+ul .tab-time {
+  width: 180px;
+  display: inline-block;
+}
+ul .tab-slim {
+  width: 194px;
+  display: inline-block;
+}
+ul .tab-slimmer {
+  width: 100px;
+  display: inline-block;
+}
+ul .tab-fat {
+  width: 300px;
+  display: inline-block;
+}
+ul .tab-fatter {
+  width: 300px;
+  display: inline-block;
+}
+ul .tab-fatterer {
+  width: 460px;
+  display: inline-block;
+}
+ul li.li-bg {
+  background-color: #eee;
+  margin-bottom: 10px;
+}
