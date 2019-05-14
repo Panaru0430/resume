@@ -39,13 +39,27 @@
 - <div class="tab-time">2016.01至今</div>
   <div class="tab-fatter">运满满（北京满运物流信息有限公司）</div>
   <div class="tab-slim">web前端开发</div>
-  - 基于vue的前端页面开发
+  - 基于vue的前端页面开发，是满满运营平台的前端负责人
   - 移动端H5页面及PC端管理后台页面开发
   - 参与移动端模版、PC管理端模板开发
   - 与同事相处融洽，工作技能、工作效率得到快速提升
 
 
 ### 项目经验
+
+- <div class="tab-time">2018.01 —— 至今</div>
+  <div class="tab-fatterer">码良系统</div>
+  - 码良是一个在线生成h5页面并提供页面管理和页面编辑的平台，用于快速制作H5页面</li>
+  - 码良系统开发成员之一</li>
+  - 主要负责基础组件、页面模版开发，也参与管理后台部分node接口编写</li>
+  - 目前配合团队，进行码良项目开源计划，内部代码剥离，文档撰写</li>
+
+- <div class="tab-time">2017.10</div>
+  <div class="tab-fatterer">满帮会员</div>
+  - 满帮会员项目是运满满、货车帮两个app的会员中心项目，也是满满这边第一个接入微信公众号的前端项目</li>
+  - 满帮会员项目前端负责人</li>
+  - 项目需区分主体，实现分端登录；避免30%“苹果税”，接入微信公众号，实现分端支付功能</li>
+  - 理清需求，提出注意点，快速开发上线</li>
 
 - <div class="tab-time">2017.05 —— 2017.07</div>
   <div class="tab-fatterer">CRM (Customer Relationship Management, 客户关系管理系统)</div>
