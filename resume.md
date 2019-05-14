@@ -17,9 +17,7 @@
 
 - 具有丰富的移动端H5页面（hybrid app）开发经验
 
-- 了解前端工程化开发工具cooking、webpack
-
-- 了解angular1、react等mvvm框架
+- 了解前端工程化开发工具cooking、webpack，了解react、angular1等框架
 
 - 了解mySQL数据库基本操作
 
